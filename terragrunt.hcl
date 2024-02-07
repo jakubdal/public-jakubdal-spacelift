@@ -1,3 +1,7 @@
+locals {
+	repo_root = get_repo_root()
+}
+
 terraform {
 	source = "modules/emptiness"
 }
